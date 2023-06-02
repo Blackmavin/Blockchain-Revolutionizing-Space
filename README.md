@@ -1,18 +1,22 @@
 #     Blockchain Revolutionizing Space Missions and Funding: The Future of Galactic Exploration
 
 `tags`: `CELO`,`Blockchain`, `Solidity`,`Metamask`
-###    Table of Contents
-*  [Introduction]()
-*  [Prerequisites]()
-*  [Requirements]()
-*  [The Transformative Potential of Blockchain in Space Missions and Funding]()
-     *  [Crowdfunding Goes Stellar]()        
-     *  [Tokenizing the Cosmos]()       
-     *  [ Fueling Collaboration]() 
-*  [Implementation of Blockchain in Space Missions and Funding]()
-*  [Conclusion]()
+### Table of Contents
+*  [Introduction](#introduction)
+*  [Prerequisites](#prerequisites)
+*  [Requirements](#requirements)
+*  [The Transformative Potential of Blockchain in Space Missions and Funding](#the-transformative-potential-of-blockchain-in-space-missions-and-funding)
+     *  [Crowdfunding Goes Stellar](#crowdfunding-goes-stellar)        
+     *  [Tokenizing the Cosmos](#tokenizing-the-cosmos)       
+     *  [ Fueling Collaboration](#fueling-collaboration) 
+*  [Implementation of Blockchain in Space Missions and Funding](#implementation-of-blockchain-in-space-missions-and-funding)
+*  [Benefits of Blockchain in Space Missions](#benefits-of-blockchain-in-space-missions)
+*  [Smart Contracts for Space Mission Financing](#smart-contracts-for-space-mission-financing)
+*  [Deploying The Smart Contracts](#deploying-the-smart-contracts)
+*  [Challenges in Blockchain Adoption for Space Missions and Funding](#challenges-in-blockchain-adoption-for-space-missions-and-funding)
+*  [Conclusion](#conclusion)
 
-#     Introduction
+# Introduction
 
 **A. The allure of space exploration**
    The vastness and mystery of space have captivated human imagination for centuries. From the first moon landing to the Mars rovers, humanity has constantly pushed the boundaries of exploration. However, the pursuit of space missions has always been accompanied by significant financial challenges and limited access to funding. Traditional models of financing, such as government grants or private investments, have often restricted the number of players in the space industry.
@@ -27,7 +31,7 @@
 
    In this guide, we will explore the transformative potential of blockchain in space missions and funding. We will delve into the various ways blockchain is reshaping the space industry, from crowdfunding platforms and tokenization to smart contracts. Additionally, we will examine real-world applications. Finally, we will discuss the challenges and considerations involved in implementing blockchain in the space sector and envision the exciting future that lies ahead for galactic exploration.
    
-#     Prerequisites:
+# Prerequisites:
 
 * Basic understanding of how Blockchain and transactions work.
 * Basic knowledge of [Solidity](https://soliditylang.org/)
@@ -37,9 +41,9 @@
 * Install[ MetaMask Extension Wallet](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn)
 
 
-#     The Transformative Potential of Blockchain in Space Missions and Funding
+# The Transformative Potential of Blockchain in Space Missions and Funding
 
-## A. Crowdfunding Goes Stellar
+## Crowdfunding Goes Stellar
    1. **Overcoming geographical barriers** --->
       Traditionally, space mission funding has been limited to a few geographically concentrated sources. With blockchain-powered crowdfunding platforms, the limitations of geographical boundaries are overcome. Space enthusiasts and supporters from around the globe can contribute to space missions, expanding the pool of potential funders and creating a more inclusive funding environment.
 
@@ -49,7 +53,7 @@
    3. **Transparency and accountability in crowdfunding platforms** --->
       Blockchain provides a transparent and immutable ledger that records all transactions on the network. In the context of space mission crowdfunding, this ensures transparency and accountability. Contributors can have confidence that their funds are being utilized as intended, and project owners can showcase the progress and milestones achieved, fostering trust between funders and project creators.
 
-## B. Tokenizing the Cosmos
+## Tokenizing the Cosmos
    1. **Digital tokens representing space resources** --->
       Blockchain technology enables the creation of digital tokens that represent ownership or access rights to space resources. These tokens can be used to tokenize satellite data, lunar mining rights, or even fractional ownership of space artifacts. By tokenizing space resources, blockchain offers a mechanism to efficiently trade and transfer ownership, unlocking new opportunities for monetizing and leveraging space assets.
 
@@ -121,7 +125,7 @@ contract SpaceResourceToken {
  
  
 
-##    C. Fueling Collaboration
+## Fueling Collaboration
   
 
    * **Programmable agreements for space mission collaborations** --->
@@ -178,20 +182,20 @@ contract SpaceMissionCollaboration {
 ```
 *Summary: This smart contract facilitates collaboration between multiple parties involved in a space mission. The initiator of the collaboration can initiate a collaboration agreement with a collaborator by sending funds along with the collaborator's address. The collaborator can then access the funds by completing the collaboration. The contract keeps track of the collaboration details and whether the collaboration has been completed.*
 
-# 5. Implementation of Blockchain in Space Missions and Funding
+# Implementation of Blockchain in Space Missions and Funding
 
 A. Blockchain-Powered Space Missions
 
 1. Case-Study: SpaceChain
    SpaceChain is a blockchain-based satellite network that aims to democratize access to space data and resources. By combining blockchain technology with satellite infrastructure, SpaceChain enables secure and decentralized storage and processing of data in space. The use of blockchain ensures data integrity and immutability, while also facilitating peer-to-peer transactions and smart contract execution. This decentralized approach to space missions opens up new possibilities for collaborative research, data sharing, and resource utilization in the space industry.
 
-##    Benefits of Blockchain in Space Missions
+## Benefits of Blockchain in Space Missions
    - **Secure and Immutable Data Storage**: Blockchain provides a tamper-proof and transparent ledger for storing space mission data. This ensures the integrity and authenticity of data collected during space missions, making it highly reliable for scientific research and analysis.
    - **Enhanced Data Sharing and Collaboration**: Blockchain enables secure and efficient data sharing among different stakeholders involved in space missions. Smart contracts can be used to define the terms of data sharing agreements, ensuring fair compensation and facilitating seamless collaboration.
    - **Transparent Funding Mechanisms**: Blockchain-based tokens and crowdfunding platforms enable decentralized fundraising for space missions. This allows for direct participation from individual investors, reducing reliance on traditional funding sources and promoting a more inclusive and transparent funding ecosystem.
    - **Improved Supply Chain Management**: Blockchain can enhance supply chain management in the space industry by providing transparent and traceable records of the procurement and movement of space mission components. This helps to prevent counterfeiting, ensure quality control, and streamline logistical processes.
 
-##     Smart Contracts for Space Mission Financing
+## Smart Contracts for Space Mission Financing
 
 ##### Sample Smart Contract for Space Mission Crowdfunding:
 ```solidity
@@ -360,7 +364,7 @@ With our Metamask connected to Celo Alfajores Testnet, we can then deploy from r
 
 
  
- ##    Challenges in Blockchain Adoption for Space Missions and Funding
+ ## Challenges in Blockchain Adoption for Space Missions and Funding
 
 **Technical Hurdles**: Implementing blockchain technology in space missions requires overcoming technical challenges such as limited connectivity, data storage limitations, and the need for robust consensus algorithms. Designing and deploying blockchain solutions that can operate efficiently in space environments while maintaining security and reliability remain significant challenges.
 
