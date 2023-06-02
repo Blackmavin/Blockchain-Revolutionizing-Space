@@ -496,18 +496,21 @@ To deploy using the celo Testnet and metamask, follow the steps below:
 
 1. You should now see the Celo Alfajores Testnet option in the network dropdown at the top of your MetaMask extension. Select it to switch to the Alfajores Testnet network.
 
-![](https://hackmd.io/_uploads/H1PBucw8h.png)
+
+![testnetToMetamask](https://github.com/Blackmavin/Blockchain-Revolutionizing-Space/assets/114421545/0aa45ebd-4efc-43fc-8be3-8d76058af753)
 
 
 . With your metamask on the Celo testnet, go back to remix Ide,compile and deploy using `Injected Provider-metamask`
 ###### You might need some test funds to cover the gas fee of deployment. You can use the Celo Alfajores faucet to get some testnet funds for your Celo wallet. Here's the link to the faucet: https://faucet.celo.org/alfajores   .Copy your Celo Alfajores Testnet address from metamask and paste in the field `Account Address`.Check Metamask and you should see 0.5CELO has been sent to your wallet. 
 
-![](https://hackmd.io/_uploads/H1fj_9vIn.png)
+![Faucet](https://github.com/Blackmavin/Blockchain-Revolutionizing-Space/assets/114421545/4028e7d6-6c30-4d21-9e68-05db85429629)
+
 
 
 
 With our Metamask connected to Celo Alfajores Testnet, we can then deploy from remix Ide
-![](https://hackmd.io/_uploads/SkmfYqvLh.png)
+
+![remixToMetamask](https://github.com/Blackmavin/Blockchain-Revolutionizing-Space/assets/114421545/78c1575d-bf91-4215-b64b-77a473a2dca0)
 
 
 
