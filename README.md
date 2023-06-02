@@ -131,7 +131,10 @@ contract SpaceResourceToken {
       By automating contract execution, smart contracts eliminate the potential for human error or biased decision-making. They provide an auditable and transparent record of all contract activities on the blockchain, enhancing trust among participants. Furthermore, smart contracts streamline administrative processes, reducing the time and effort required for contract management, and enabling more efficient collaboration between different entities involved in space missions.
 
 Sample Smart Contract for Space Mission Collaboration Agreement
-``` pragma solidity ^0.8.0;
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
 
 contract SpaceMissionCollaboration {
     struct Collaboration {
@@ -150,6 +153,7 @@ contract SpaceMissionCollaboration {
 
     function initiateCollaboration(address _collaborator) public payable {
         require(msg.sender != _collaborator, "Initiator and collaborator cannot be the same");
+    require(_collaborator != address(0), "Invalid collaborator address");
         collaborationIdCounter++;
         collaborations[collaborationIdCounter] = Collaboration(msg.sender, _collaborator, msg.value, false);
         totalCollaborations++;
